@@ -18,5 +18,7 @@ public class Prog {
         CarBuilder builder = new CarBuilderImpl();
         CarBuilderDirectorUK carBuildDirectorUK = new CarBuilderDirectorUK(builder);
         System.out.println(carBuildDirectorUK.construct());
+                //Je test une modif sur le main
+        System.out.println(carBuildDirectorUK.construct());
     }
 }
