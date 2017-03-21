@@ -15,7 +15,8 @@ public class Car {
     private String color;
     private String SteeringWheel;
 
-    public Car() {
+    public Car(int nbRoues) {
+        this.wheels = nbRoues;
     }
 
     @Override
